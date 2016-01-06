@@ -479,10 +479,12 @@
         if ([DepartText.text isEqualToString:@"Delhi,India"] || [DepartText.text isEqualToString:@"Mumbai,India"] ||  [DepartText.text isEqualToString:@"Ahmedabad,India"] || [DepartText.text isEqualToString:@"Hyderbad,India"] || [DepartText.text isEqualToString:@"Bengaluru,India"] || [DepartText.text isEqualToString:@"Chennai,India"] || [DepartText.text isEqualToString:@"Kozhikode,India"] || [DepartText.text isEqualToString:@"Kochi,India"] || [DepartText.text isEqualToString:@"Thiruvanathapuram,India"] || [DepartText.text isEqualToString:@"Kolkata,India"] || [DepartText.text isEqualToString:@"Dhaka,Bangladesh"] || [DepartText.text isEqualToString:@"Kabul,Afghanistan"] || [DepartText.text isEqualToString:@"Peshawar,Pakistan"] || [DepartText.text isEqualToString:@"Lahore,Pakistan"] || [DepartText.text isEqualToString:@"Karachi,Pakistan"] || [DepartText.text isEqualToString:@"Islamabad,Pakistan"] || [DepartText.text isEqualToString:@"Multan,Pakistan"] || [DepartText.text isEqualToString:@"Sialkot,Pakistan"] || [DepartText.text isEqualToString:@"Colombo,Sri Lanka"] || [DepartText.text isEqualToString:@"Malé,Maldives"]){
             self.PriceText.text = [NSString stringWithFormat:@"$304.93"];}
     
+    if ([DepartText.text isEqualToString:@"Beijing,China"] || [DepartText.text isEqualToString:@"Shanghai,China"] || [DepartText.text isEqualToString:@"Tokyo,Japan"] || [DepartText.text isEqualToString:@"Osaka,Japan"] || [DepartText.text isEqualToString:@"Nagoya,Japan"] || [DepartText.text isEqualToString:@"Taipei,Taiwan"] || [DepartText.text isEqualToString:@"Seoul,South Korea"] || [DepartText.text isEqualToString:@"Hong Kong,Hong Kong"] || [DepartText.text isEqualToString:@"Guangzhou,China"] ||[DepartText.text isEqualToString:@"Manila,Philippines"] || [DepartText.text isEqualToString:@"Clark,Philippines"]){
+        self.PriceText.text = [NSString stringWithFormat:@"$533.60"];}
+    }
+  
     
-    
-    
-}
+
 
 
 - (IBAction)RoundTrip:(id)sender {
