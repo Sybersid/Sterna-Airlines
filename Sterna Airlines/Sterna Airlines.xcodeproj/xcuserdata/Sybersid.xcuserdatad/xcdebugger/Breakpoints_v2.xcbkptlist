@@ -182,11 +182,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sterna Airlines/ViewController5.m"
-            timestampString = "473744621.622148"
+            timestampString = "473810504.735355"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "485"
-            endingLineNumber = "485"
+            startingLineNumber = "491"
+            endingLineNumber = "491"
             landmarkName = "@implementation ViewController5"
             landmarkType = "3">
          </BreakpointContent>

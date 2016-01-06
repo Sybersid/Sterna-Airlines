@@ -266,32 +266,32 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hVC-jM-dTj">
-                                <rect key="frame" x="47" y="185" width="320" height="366"/>
+                                <rect key="frame" x="47" y="72" width="320" height="582"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uMj-ux-pCg">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="366"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uMj-ux-pCg">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="582"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-JD-ZwI">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-JD-ZwI">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad" returnKeyType="done"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of People " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HAb-zQ-6p7">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of People " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HAb-zQ-6p7">
                                                 <rect key="frame" x="0.0" y="30" width="320" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start Date 31/12/2015" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-ee-XgR">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start Date 31.12.2015" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-ee-XgR">
                                                 <rect key="frame" x="0.0" y="60" width="320" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Return Date 01/01/2016" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKW-mJ-igM">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Return Date 01.01.2016" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKW-mJ-igM">
                                                 <rect key="frame" x="0.0" y="90" width="320" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Seating Class" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Ra-kb-CSB">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Seating Class" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Ra-kb-CSB">
                                                 <rect key="frame" x="0.0" y="120" width="320" height="30"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -300,8 +300,14 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             </textField>
-                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8N-jE-suj">
+                                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="w7k-GV-8H3">
                                                 <rect key="frame" x="0.0" y="150" width="320" height="216"/>
+                                                <date key="date" timeIntervalSinceReferenceDate="473810850.53975999">
+                                                    <!--2016-01-06 22:07:30 +0000-->
+                                                </date>
+                                            </datePicker>
+                                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E8N-jE-suj">
+                                                <rect key="frame" x="0.0" y="366" width="320" height="216"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="lUE-Ng-1e2" id="paF-HD-fUl"/>
                                                     <outlet property="delegate" destination="lUE-Ng-1e2" id="YKv-5I-kUm"/>
@@ -313,12 +319,6 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="0eT-JM-mkK" firstAttribute="top" secondItem="E8N-jE-suj" secondAttribute="bottom" constant="136" id="R6L-fa-bBU"/>
-                            <constraint firstItem="E8N-jE-suj" firstAttribute="leading" secondItem="vO6-US-fU8" secondAttribute="leadingMargin" constant="27" id="bzU-8f-CDX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="E8N-jE-suj" secondAttribute="trailing" constant="27" id="f8y-d7-4Hh"/>
-                            <constraint firstItem="E8N-jE-suj" firstAttribute="top" secondItem="CqQ-aq-3E6" secondAttribute="bottom" constant="271" id="pBt-rL-oef"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" tag="1" title="1" id="DZV-Pd-bPv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>

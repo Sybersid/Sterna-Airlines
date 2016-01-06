@@ -481,9 +481,15 @@
     
     if ([DepartText.text isEqualToString:@"Beijing,China"] || [DepartText.text isEqualToString:@"Shanghai,China"] || [DepartText.text isEqualToString:@"Tokyo,Japan"] || [DepartText.text isEqualToString:@"Osaka,Japan"] || [DepartText.text isEqualToString:@"Nagoya,Japan"] || [DepartText.text isEqualToString:@"Taipei,Taiwan"] || [DepartText.text isEqualToString:@"Seoul,South Korea"] || [DepartText.text isEqualToString:@"Hong Kong,Hong Kong"] || [DepartText.text isEqualToString:@"Guangzhou,China"] ||[DepartText.text isEqualToString:@"Manila,Philippines"] || [DepartText.text isEqualToString:@"Clark,Philippines"]){
         self.PriceText.text = [NSString stringWithFormat:@"$533.60"];}
-    }
-  
     
+    
+    }
+    
+    
+    
+    
+  
+
 
 
 
