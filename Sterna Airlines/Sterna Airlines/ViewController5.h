@@ -19,6 +19,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *PriceText;
 @property (retain, nonatomic) IBOutlet NSArray *PickerData;
 - (IBAction)OneWay:(id)sender;
-- (IBAction)RoundTrip:(id)sender;
+
 
 @end
