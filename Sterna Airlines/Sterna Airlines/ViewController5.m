@@ -483,18 +483,13 @@
         self.PriceText.text = [NSString stringWithFormat:@"$533.60"];}
     
     if ([DepartText.text isEqualToString:@"London,England"] || [DepartText.text isEqualToString:@"Paris,France"] || [DepartText.text isEqualToString:@"Zürich,Switzerland"] || [DepartText.text isEqualToString:@"Manchester,England"] || [DepartText.text isEqualToString:@"Rome,Italy"] || [DepartText.text isEqualToString:@"Milan,Italy"] || [DepartText.text isEqualToString:@"Madrid,Spain"] || [DepartText.text isEqualToString:@"Barcelona,Spain"]) {
-        <#statements#>
-    }
+        self.PriceText.text = [NSString stringWithFormat:@"$000.00"];}
+    
+    
+    
+    
     
     }
-    
-    
-    
-    
-  
-
-
-
 
 @end
 
