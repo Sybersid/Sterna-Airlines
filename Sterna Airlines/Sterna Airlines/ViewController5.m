@@ -482,12 +482,14 @@
     if ([DepartText.text isEqualToString:@"Beijing,China"] || [DepartText.text isEqualToString:@"Shanghai,China"] || [DepartText.text isEqualToString:@"Tokyo,Japan"] || [DepartText.text isEqualToString:@"Osaka,Japan"] || [DepartText.text isEqualToString:@"Nagoya,Japan"] || [DepartText.text isEqualToString:@"Taipei,Taiwan"] || [DepartText.text isEqualToString:@"Seoul,South Korea"] || [DepartText.text isEqualToString:@"Hong Kong,Hong Kong"] || [DepartText.text isEqualToString:@"Guangzhou,China"] ||[DepartText.text isEqualToString:@"Manila,Philippines"] || [DepartText.text isEqualToString:@"Clark,Philippines"]){
         self.PriceText.text = [NSString stringWithFormat:@"$533.60"];}
     
-    if ([DepartText.text isEqualToString:@"London,England"] || [DepartText.text isEqualToString:@"Paris,France"] || [DepartText.text isEqualToString:@"Zürich,Switzerland"] || [DepartText.text isEqualToString:@"Manchester,England"] || [DepartText.text isEqualToString:@"Rome,Italy"] || [DepartText.text isEqualToString:@"Milan,Italy"] || [DepartText.text isEqualToString:@"Madrid,Spain"] || [DepartText.text isEqualToString:@"Barcelona,Spain"] || [DepartText.text isEqualToString:@"Düsseldorf,Germany"] || [DepartText.text isEqualToString:@"Munich,Germany"] || ) {
-        self.PriceText.text = [NSString stringWithFormat:@"$000.00"];}
+    if ([DepartText.text isEqualToString:@"London,England"] || [DepartText.text isEqualToString:@"Paris,France"] || [DepartText.text isEqualToString:@"Zürich,Switzerland"] || [DepartText.text isEqualToString:@"Manchester,England"] || [DepartText.text isEqualToString:@"Rome,Italy"] || [DepartText.text isEqualToString:@"Milan,Italy"] || [DepartText.text isEqualToString:@"Madrid,Spain"] || [DepartText.text isEqualToString:@"Barcelona,Spain"] || [DepartText.text isEqualToString:@"Düsseldorf,Germany"] || [DepartText.text isEqualToString:@"Munich,Germany"] || [DepartText.text isEqualToString:@"Amsterdam,Netherlands"]){
+        self.PriceText.text = [NSString stringWithFormat:@"$838.61"];}
     
     
     
-    
+    if ([DepartText.text isEqualToString:@"Dublin,Ireland"]) {
+        self.PriceText.text = [NSString stringWithFormat:@"$"];
+    }
     
     }
 
