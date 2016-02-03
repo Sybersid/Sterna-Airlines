@@ -67,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-enter Passowrd" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8jL-yQ-uCj">
-                                <rect key="frame" x="57" y="252" width="300" height="30"/>
+                                <rect key="frame" x="57" y="208" width="300" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="JVp-SC-IJX"/>
                                     <constraint firstAttribute="height" constant="30" id="hiD-bC-2HD"/>
@@ -76,7 +76,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sDs-BM-HqV">
-                                <rect key="frame" x="57" y="97" width="300" height="30"/>
+                                <rect key="frame" x="57" y="53" width="300" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dCa-6R-RyC"/>
                                 </constraints>
@@ -84,7 +84,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Passowrd" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nRQ-Tp-2vV">
-                                <rect key="frame" x="57" y="181" width="300" height="30"/>
+                                <rect key="frame" x="57" y="137" width="300" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4hy-a9-QGC"/>
                                     <constraint firstAttribute="width" constant="300" id="Bkn-dR-ss9"/>
@@ -93,7 +93,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="216-U5-JJF">
-                                <rect key="frame" x="57" y="409" width="300" height="66"/>
+                                <rect key="frame" x="57" y="365" width="300" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="6u4-oi-Uho"/>
                                     <constraint firstAttribute="width" constant="300" id="S7e-bR-ZMb"/>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Kw-kO-ENY">
-                                <rect key="frame" x="57" y="335" width="300" height="66"/>
+                                <rect key="frame" x="57" y="291" width="300" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="EyN-yU-9S9"/>
                                     <constraint firstAttribute="width" constant="300" id="yMA-cz-Vti"/>
@@ -151,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kg-ux-u07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1018" y="-365"/>
+            <point key="canvasLocation" x="828" y="-333"/>
         </scene>
         <!--History of Sterna Airlines-->
         <scene sceneID="EvB-1Q-jo9">
@@ -276,9 +276,6 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Menu" id="Ot1-4P-TJ9"/>
-                    <connections>
-                        <segue destination="mDo-5b-o10" kind="show" identifier="login" id="a8y-N0-0yi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeZ-Do-DIv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -544,19 +541,11 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                                     <constraint firstItem="uMj-ux-pCg" firstAttribute="top" secondItem="hVC-jM-dTj" secondAttribute="top" id="wgW-wl-aVu"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IK-4G-hAG">
-                                <rect key="frame" x="332" y="649" width="62" height="30"/>
-                                <state key="normal" title="Continue">
-                                    <color key="titleColor" red="0.0092548076919999993" green="0.0092548076919999993" blue="0.0092548076919999993" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6IK-4G-hAG" firstAttribute="trailing" secondItem="vO6-US-fU8" secondAttribute="trailingMargin" id="69w-f5-4mw"/>
                             <constraint firstItem="hVC-jM-dTj" firstAttribute="top" secondItem="CqQ-aq-3E6" secondAttribute="bottom" constant="8" symbolic="YES" id="Fb7-I7-aVj"/>
                             <constraint firstItem="hVC-jM-dTj" firstAttribute="centerX" secondItem="vO6-US-fU8" secondAttribute="centerX" id="Kgd-09-Qqw"/>
-                            <constraint firstItem="0eT-JM-mkK" firstAttribute="top" secondItem="6IK-4G-hAG" secondAttribute="bottom" constant="8" symbolic="YES" id="z6h-l2-L5U"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" tag="1" title="1" id="DZV-Pd-bPv"/>
@@ -568,7 +557,7 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQB-Rt-tIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1490" y="1388"/>
+            <point key="canvasLocation" x="1474" y="1412"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="peG-UZ-DhB">
@@ -681,7 +670,7 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5FY-EL-HMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1944" y="563"/>
+            <point key="canvasLocation" x="2844" y="-275"/>
         </scene>
         <!--Fun/Luxuary-->
         <scene sceneID="gcC-EE-UmG">
@@ -701,54 +690,47 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8G-jF-KhL">
-                                <rect key="frame" x="20" y="176" width="374" height="30"/>
-                                <state key="normal" title="Great Hotel"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwc-ZH-vJn">
-                                <rect key="frame" x="20" y="214" width="374" height="30"/>
+                                <rect key="frame" x="20" y="176" width="374" height="30"/>
                                 <state key="normal" title="Water Parks"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dd-f0-MKD">
-                                <rect key="frame" x="20" y="252" width="374" height="30"/>
+                                <rect key="frame" x="20" y="214" width="374" height="30"/>
                                 <state key="normal" title="Shopping"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it2-LH-GLx">
-                                <rect key="frame" x="20" y="138" width="374" height="30"/>
+                                <rect key="frame" x="20" y="100" width="374" height="30"/>
                                 <state key="normal" title="Bugatti's"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehO-ca-mpj">
-                                <rect key="frame" x="20" y="100" width="374" height="30"/>
-                                <state key="normal" title="Boat House"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8G-jF-KhL">
+                                <rect key="frame" x="20" y="138" width="374" height="30"/>
+                                <state key="normal" title="Great Hotel"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="R8G-jF-KhL" firstAttribute="leading" secondItem="it2-LH-GLx" secondAttribute="leading" id="1OJ-u5-GM8"/>
-                            <constraint firstItem="vwc-ZH-vJn" firstAttribute="leading" secondItem="R8G-jF-KhL" secondAttribute="leading" id="1RI-5m-GHD"/>
-                            <constraint firstItem="ehO-ca-mpj" firstAttribute="top" secondItem="R3J-fC-SDK" secondAttribute="bottom" constant="8" symbolic="YES" id="2lL-wZ-zgE"/>
-                            <constraint firstItem="it2-LH-GLx" firstAttribute="leading" secondItem="ehO-ca-mpj" secondAttribute="leading" id="5nP-55-8oD"/>
-                            <constraint firstItem="R3J-fC-SDK" firstAttribute="leading" secondItem="ehO-ca-mpj" secondAttribute="leading" id="B7B-wN-R5A"/>
-                            <constraint firstItem="it2-LH-GLx" firstAttribute="top" secondItem="ehO-ca-mpj" secondAttribute="bottom" constant="8" symbolic="YES" id="D8J-Or-McG"/>
-                            <constraint firstItem="8dd-f0-MKD" firstAttribute="trailing" secondItem="vwc-ZH-vJn" secondAttribute="trailing" id="DtN-tQ-Eg1"/>
-                            <constraint firstItem="ehO-ca-mpj" firstAttribute="trailing" secondItem="it2-LH-GLx" secondAttribute="trailing" id="FFR-PH-F4V"/>
-                            <constraint firstItem="it2-LH-GLx" firstAttribute="trailing" secondItem="R8G-jF-KhL" secondAttribute="trailing" id="Ra4-47-kaq"/>
-                            <constraint firstItem="8dd-f0-MKD" firstAttribute="leading" secondItem="vwc-ZH-vJn" secondAttribute="leading" id="S3A-BK-5QS"/>
-                            <constraint firstItem="it2-LH-GLx" firstAttribute="trailing" secondItem="PMj-eE-sUZ" secondAttribute="trailingMargin" id="TNE-Rz-7bP"/>
-                            <constraint firstItem="8dd-f0-MKD" firstAttribute="top" secondItem="vwc-ZH-vJn" secondAttribute="bottom" constant="8" symbolic="YES" id="Ug5-Sf-6Du"/>
-                            <constraint firstItem="R8G-jF-KhL" firstAttribute="top" secondItem="it2-LH-GLx" secondAttribute="bottom" constant="8" symbolic="YES" id="bnB-L9-y83"/>
-                            <constraint firstItem="R8G-jF-KhL" firstAttribute="trailing" secondItem="vwc-ZH-vJn" secondAttribute="trailing" id="jxm-uQ-46E"/>
-                            <constraint firstItem="R3J-fC-SDK" firstAttribute="trailing" secondItem="ehO-ca-mpj" secondAttribute="trailing" id="qu5-5p-ZKw"/>
-                            <constraint firstItem="R3J-fC-SDK" firstAttribute="top" secondItem="cH0-Li-2K0" secondAttribute="bottom" constant="8" symbolic="YES" id="taf-cL-9Rp"/>
-                            <constraint firstItem="R8G-jF-KhL" firstAttribute="leading" secondItem="PMj-eE-sUZ" secondAttribute="leadingMargin" id="uUL-m7-y47"/>
-                            <constraint firstItem="vwc-ZH-vJn" firstAttribute="top" secondItem="R8G-jF-KhL" secondAttribute="bottom" constant="8" symbolic="YES" id="xcH-BJ-rWG"/>
+                            <constraint firstItem="vwc-ZH-vJn" firstAttribute="top" secondItem="R8G-jF-KhL" secondAttribute="bottom" constant="8" id="2TD-Xg-DKh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="R8G-jF-KhL" secondAttribute="leading" id="4aw-gs-MDz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="it2-LH-GLx" secondAttribute="trailing" id="BKn-We-L8k"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R8G-jF-KhL" secondAttribute="trailing" id="CJT-ib-YxQ"/>
+                            <constraint firstItem="it2-LH-GLx" firstAttribute="top" secondItem="R3J-fC-SDK" secondAttribute="bottom" constant="7.5" id="Cdq-fk-HQI"/>
+                            <constraint firstItem="8dd-f0-MKD" firstAttribute="top" secondItem="vwc-ZH-vJn" secondAttribute="bottom" constant="8" id="TIX-eJ-iDt"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="it2-LH-GLx" secondAttribute="leading" id="f7D-vW-nL9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8dd-f0-MKD" secondAttribute="trailing" id="gNC-76-vlR"/>
+                            <constraint firstItem="R8G-jF-KhL" firstAttribute="top" secondItem="it2-LH-GLx" secondAttribute="bottom" constant="8" id="lx3-g1-ToI"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="8dd-f0-MKD" secondAttribute="leading" id="r8l-Ab-M7Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vwc-ZH-vJn" secondAttribute="trailing" id="uJY-Km-emg"/>
+                            <constraint firstItem="R3J-fC-SDK" firstAttribute="top" secondItem="cH0-Li-2K0" secondAttribute="bottom" constant="8" id="wg2-iZ-Z41"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="vwc-ZH-vJn" secondAttribute="leading" id="wxU-gU-M1f"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="R3J-fC-SDK" secondAttribute="leading" id="xdu-Kv-eCi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R3J-fC-SDK" secondAttribute="trailing" id="zIM-e8-KrH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Fun/Luxuary" id="wLX-aG-mZ6" userLabel="Destinations"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJ6-vK-99L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2435" y="563"/>
+            <point key="canvasLocation" x="2797" y="-1385"/>
         </scene>
         <!--Romance-->
         <scene sceneID="iT3-xW-KqS">
@@ -762,60 +744,36 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What does Romance mean to you?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1II-KN-XLp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What does Romance mean to you?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1II-KN-XLp">
                                 <rect key="frame" x="20" y="72" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-aa-Grb">
-                                <rect key="frame" x="20" y="99" width="374" height="30"/>
-                                <state key="normal" title="Cruise"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7d-Ic-l4D">
-                                <rect key="frame" x="20" y="175" width="374" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7d-Ic-l4D">
+                                <rect key="frame" x="20" y="139" width="374" height="30"/>
                                 <state key="normal" title="Great Hotel"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXh-8w-N0D">
-                                <rect key="frame" x="20" y="251.5" width="374" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Tk-pE3">
+                                <rect key="frame" x="20" y="101" width="374" height="30"/>
                                 <state key="normal" title="Shopping"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Tk-pE3">
-                                <rect key="frame" x="20" y="137" width="374" height="30"/>
-                                <state key="normal" title="Shopping"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1T-kN-4cq">
-                                <rect key="frame" x="20" y="213" width="374" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1T-kN-4cq">
+                                <rect key="frame" x="20" y="177" width="374" height="30"/>
                                 <state key="normal" title="Water Parks"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWb-hg-MNZ">
+                                <rect key="frame" x="20" y="215" width="374" height="30"/>
+                                <state key="normal" title="Quiet and Peaceful"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="x7d-Ic-l4D" secondAttribute="trailing" id="4cJ-nU-mgg"/>
-                            <constraint firstItem="jXh-8w-N0D" firstAttribute="top" secondItem="P1T-kN-4cq" secondAttribute="bottom" constant="8" id="9na-IK-BU8"/>
-                            <constraint firstItem="hKn-Tk-pE3" firstAttribute="top" secondItem="X4G-aa-Grb" secondAttribute="bottom" constant="8" id="Ak6-0e-pN7"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="1II-KN-XLp" secondAttribute="leading" id="BM6-ny-ad1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hKn-Tk-pE3" secondAttribute="trailing" id="S9t-a8-Fvn"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="hKn-Tk-pE3" secondAttribute="leading" id="UKt-XT-Fga"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="X4G-aa-Grb" secondAttribute="trailing" id="Xff-99-dbD"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="x7d-Ic-l4D" secondAttribute="leading" id="aCO-nd-HFS"/>
-                            <constraint firstItem="X4G-aa-Grb" firstAttribute="top" secondItem="1II-KN-XLp" secondAttribute="bottom" constant="6" id="aw4-Cz-7iE"/>
-                            <constraint firstItem="1II-KN-XLp" firstAttribute="top" secondItem="43H-pr-9Pd" secondAttribute="bottom" constant="8" id="bMj-mz-xgQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="P1T-kN-4cq" secondAttribute="trailing" id="dPk-eg-fgZ"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="jXh-8w-N0D" secondAttribute="leading" id="gVL-rX-J89"/>
-                            <constraint firstItem="P1T-kN-4cq" firstAttribute="top" secondItem="x7d-Ic-l4D" secondAttribute="bottom" constant="8.5" id="jg7-0d-T2X"/>
-                            <constraint firstItem="x7d-Ic-l4D" firstAttribute="top" secondItem="hKn-Tk-pE3" secondAttribute="bottom" constant="8" id="jgJ-C5-pq1"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="P1T-kN-4cq" secondAttribute="leading" id="r5y-r9-Fv8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jXh-8w-N0D" secondAttribute="trailing" id="sDE-aF-Clt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1II-KN-XLp" secondAttribute="trailing" id="sVr-8r-5yJ"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="X4G-aa-Grb" secondAttribute="leading" id="ybu-Id-Cga"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Romance" id="z5g-4U-0Gl" userLabel="Destinations"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bDR-5Q-b0s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2899" y="563"/>
+            <point key="canvasLocation" x="3245" y="1426"/>
         </scene>
         <!--Flights-->
         <scene sceneID="pjp-Kk-Yde">
@@ -848,15 +806,48 @@ But one of the best things about Sterna Airlines is that we don’t just use any
                     <view key="view" contentMode="scaleToFill" id="HV4-87-omY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rb9-Ah-nGA">
+                                <rect key="frame" x="20" y="319" width="374" height="98"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="99k-5Q-1s3" kind="show" id="8Rt-L4-i5r"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="Rb9-Ah-nGA" secondAttribute="leading" id="BzN-Sn-IJ4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rb9-Ah-nGA" secondAttribute="trailing" id="TOc-N6-axK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rb9-Ah-nGA" secondAttribute="trailing" id="fwx-mQ-bxZ"/>
+                            <constraint firstItem="ifA-oB-n4A" firstAttribute="top" secondItem="Rb9-Ah-nGA" secondAttribute="bottom" constant="270" id="upW-Gs-ucf"/>
+                            <constraint firstItem="Rb9-Ah-nGA" firstAttribute="top" secondItem="4ct-4j-eXC" secondAttribute="bottom" constant="255" id="xt9-mt-oa7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="3" id="Wb4-uc-5i9"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRr-pX-4hE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationItem title="Menu" id="pj1-Kx-FDI"/>
             </objects>
             <point key="canvasLocation" x="2086" y="1426"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bVZ-jQ-Ceb">
+            <objects>
+                <viewController id="99k-5Q-1s3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q26-RC-by4"/>
+                        <viewControllerLayoutGuide type="bottom" id="dhY-np-7H4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="elE-ka-9YL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.24265818480000001" green="0.81770272740000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YAT-TO-oEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2704" y="1426"/>
         </scene>
     </scenes>
     <resources>
